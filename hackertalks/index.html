@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Delta Force</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Delta">
+
+	<!-- OG Tags -->
+	<meta property="og:url" content="https://delta.nitt.edu" />
+	<meta property="og:title" content="Delta Force" />
+	<meta property="og:description" content="The official programming club of NIT Trichy" />
+	<meta property="og:image" content="https://delta.nitt.edu/images/deltaHeader.png" />
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS - Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript - Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Font Awesome Fonts -->
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+	<!-- Our Stylesheets -->
+	<link href="/css/base.css" rel="stylesheet">
+	<link href="/css/hackertalks.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="/images/favicon.ico"/>
+</head>
+<body>
+
+    <div id="main-body-container">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="/images/deltaLogoWhite.png" width="20px"></a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!-- Navbar left side links -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/members/">Members</a></li>
+                        <li><a href="/projects/">Projects</a></li>
+                    </ul>
+                    <!-- Navbar right side links -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="">HackerTalks<span class="sr-only">(current)</span></a></li>
+                        <li><a href="https://inductions.delta.nitt.edu">Inductions</a></li>
+                        <li><a href="http://github.com/delta" id="gitHubNav" target="_blank"><span>Delta Org</span><i id="githubLogo" class="fab fa-github textLogo"></i></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <section id="aboutHackerTalks" class="outer-container first-container">
+            <h1 class="subtopic">HackerTalks</h1>
+            <p>
+                The first HackerTalks was conducted on March 26th and 27th, 2018. The ultimate goal of this event was to give the students of NIT Trichy a glimpse into different avenues and topics in computer science and engineering through a combinations of talks and demonstrations. Here are some highlights from the event.
+            </p>
+
+            <div id="yearsButton" class="btn-group years-button-box" role="group" aria-label="...">
+                <button type="button" class="btn btn-default btn-lg dark-button active-button large-mobile" onclick="loadTalks('2018')">2018</button>
+                <button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="loadTalks('2019')">2019</button>
+            </div>
+        </section>
+
+        <div id="theTalkContainer">
+        
+        </div>
+    </div>
+
+    <footer class="love-footer-dark">
+        Made with ❤ by Delta Force
+    </footer>
+
+    <!-- Main Script -->
+	<script src="/js/hackertalks.js"></script>
+</body>
+</html>
