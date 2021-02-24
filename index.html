@@ -74,17 +74,9 @@
 		</nav>
 
 		<!-- Landing Section -->
-		<section>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<a><div class="bluebutton">HELLO</div></a>
-			<a><div class="redbutton"><i class="fa fa-users"></i><SPAN>JOIN US</SPAN></div></a>
-
-		</section>
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		
+		<!-- <div class="wrap"> -->
+		<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -94,21 +86,56 @@
 		 
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
-			  <div class="item active">
-				  <div class="background-tint">
-				<!-- <img src="images/carousel.png" alt="Los Angeles"> -->
-			</div>
+			
+				<div class="test">
+					<!-- <a><div class="bluebutton">HELLO</div></a> -->
+				
+				</div>
+			  <div class="item active tint">
+				
+				<img src="images/hc-carousel.png" width="100%" alt="Los Angeles">
+				<a><div class="btnnnn bluebutton">Button</div></a>
+				<a><div class="btnnnn bluebutton">Button</div></a>
+				<!-- <a><div class="btnnnn redbutton"><i class="fa fa-users"></i><SPAN>JOIN US</SPAN></div></a> -->
 			  </div>
 		  
-			  <div class="item">
-				<img src="images/carousel.png" alt="Chicago">
+			  <div class="item tint">
+				<img src="images/carousel.png" width="100%" height="10%" alt="Chicago">
 			  </div>
 		  
-			  <div class="item">
+			  <div class="item tint">
 				<img src="images/carousel.png" alt="New York">
 			  </div>
 			</div>
 
+			
+				<style>
+					.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  
+}
+.btnnnn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
+  /* background-color: #555;
+  color: white; */
+  font-size: 16px;
+  padding: 12px 24px;
+  /* border: none; */
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+				</style>
+				
+<!-- 	
+			</section> -->
 			<!-- Left and right controls -->
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
 			  <span class="glyphicon glyphicon-chevron-left"></span>
@@ -119,7 +146,79 @@
 			  <span class="sr-only">Next</span>
 			</a>
 		  </div>
+		
+		<style>
+			article, aside, figure, footer, header, hgroup, 
+menu, nav, section { display: block; margin: 0; }
 
+body { color: #555; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+p {
+  padding: 10px 0 0;
+  color: #222;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+img { display: block; 
+
+}
+
+.tint {
+  position: relative;
+
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 43, 43, 0.863);
+  transition: all .3s linear;
+}
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+
+		</style>
 	<footer class="love-footer-dark">
 		Made with ❤ by Team Hack Club SKCET
 	</footer>
