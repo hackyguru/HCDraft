@@ -3,7 +3,6 @@
 /* General Stuff */
 html, body {
   font-family: 'Roboto', sans-serif;
-  height: 100%;
   overflow-x: hidden;
   background-color: #212121;
 }
@@ -40,6 +39,24 @@ html, body {
 .navbar-btn span{
   padding-left: 10px;
   font-weight: bold;
+}
+
+.smallbtn {
+  background-color: #e42d42;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+}
+
+.smallbtn:hover {
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  padding: 8px;
+  color: #e42d42;
 }
 
 /*Hackclub button*/
@@ -228,10 +245,30 @@ section {
 }
   
 h1 {
+  font-family: 'Inter', sans-serif;;
   margin: 0px;
   padding: 20px 0px 10px 0px;
   font-size: 3em;
   font-weight: 100;
+  
+}
+
+.article {
+  align-items: initial;
+  padding-left: 20;
+  margin-inline-start: 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.article-title {
+  color: #ec3750;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 20;
+  margin-inline-start: 20px;
+  font-family: 'Inter', sans-serif;
 }
   
 .separator {
