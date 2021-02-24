@@ -12,7 +12,6 @@ $(document).ready(function() {
                         result.splice(i,1);
                     }
                 }
-
                 for (var i=0;i<result.length;i++) {
                     if (i%2==0) {
                         $("#projCol1").append(getHTMLString(result[i]));

@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 /* General Stuff */
 .subtopic {
-    color: white;
+    color: #EC3750;
+    font-family: 'Inter', sans-serif;;
+    font-weight: bold;
 }
 
 p {
@@ -16,8 +21,8 @@ section {
 }
 
 #teamPictures .active-batch {
-    background-color: white;
-    color: #414141;
+    background-color: #EC3750;
+    color: #ffffff;
 }
 
 /* Main Container for all member images */
