@@ -225,7 +225,7 @@ p {
   text-align: center;
   color: black;
   max-width: 800px;
-  min-width: 300px;
+  /* min-width: 300px; */
   margin: auto;
   padding: 0px 20px;
   font-size: 18px;

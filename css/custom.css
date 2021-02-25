@@ -1,0 +1,157 @@
+article, aside, figure, footer, header, hgroup, 
+menu, nav, section { display: block; margin: 0; }
+
+body { color: #555; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+p {
+  padding: 10px 0 0;
+  color: #222;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+img { display: block; 
+
+}
+
+.tint {
+  position: relative;
+
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 43, 43, 0.863);
+  transition: all .3s linear;
+}
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+body{
+    overflow: hidden;
+}
+.test {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+
+}
+.selfdefine{
+margin-top: 50px;
+}
+.btnnnn {
+position: absolute;
+top: 50%;
+left: 50%;
+/* transform: translate(-50%, -50%); */
+/* -ms-transform: translate(-50%, -50%); */
+/* background-color: #555;
+color: white; */
+font-size: 16px;
+padding: 12px 24px;
+/* border: none; */
+cursor: pointer;
+/* border-radius: 5px; */
+}
+.typetext {
+position: absolute;
+top: 50%;
+left: 45%;
+/* transform: translate(-50%, -50%); */
+/* -ms-transform: translate(-50%, -50%); */
+/* background-color: #555;
+color: white; */
+font-size: 16px;
+padding: 12px 24px;
+/* border: none; */
+cursor: pointer;
+/* border-radius: 5px; */
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #eee;
+}
+.container1 {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container1 p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container1 p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container1 p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
