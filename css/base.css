@@ -262,6 +262,7 @@ h1 {
 }
 
 
+
 .article-title {
   color: #ec3750;
   font-size: 25px;
@@ -277,7 +278,7 @@ h1 {
 }
 
 .hcenter {
-  text-align: center;
+  text-align: initial;
 }
 
 .vcenter {
@@ -304,11 +305,14 @@ h1 {
 }
 
 .love-footer-dark {
-  height: 1.4em;
+  width: 100%;
+  height: 20px;
   text-align: center;
-  background-color: #111111;
-  color: green;
+  background-color: #e42d42;
+  color: #ffffff;
   overflow: hidden;
+  position: relative;
+  bottom: 0;
 }
 
 button {
