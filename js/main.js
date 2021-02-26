@@ -107,3 +107,4 @@ var next = function next() {
 
 next();
 // End of Scramble Text code
+

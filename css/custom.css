@@ -78,10 +78,12 @@ height: 200px;
 
 }
 .selfdefine{
-margin-top: 50px;
+margin-top: 100px;
 }
 .btnnnn {
+font-family: 'Inter', sans-serif;;
 position: absolute;
+padding: 20px;
 top: 50%;
 left: 50%;
 /* transform: translate(-50%, -50%); */
@@ -94,6 +96,11 @@ padding: 12px 24px;
 cursor: pointer;
 /* border-radius: 5px; */
 }
+
+.btnnnn i{
+  padding-right: 15px;
+}
+
 .typetext {
 position: absolute;
 top: 50%;
@@ -136,7 +143,7 @@ body {
 }
 .container1 p span.typed-text {
   font-weight: normal;
-  color: #dd7732;
+  color: #e42d42;
 }
 .container1 p span.cursor {
   display: inline-block;

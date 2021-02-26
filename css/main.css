@@ -9,6 +9,14 @@
   animation: sexyGlow 4s ease-in-out 0s infinite;
 }
 
+.bigcard {
+  background-color: rgb(53, 53, 53);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
 /* CSS for Scramble Text */
 .container {
   position: relative;
@@ -42,7 +50,12 @@
 
 /* Who We Are Section */
 #whoWeAre {
-  background-color: white;
+  background-color:  rgb(53, 53, 53);
+  border-spacing: 10px;
+  background-color: rgb(53, 53, 53);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 /* End of Who We Are Section */
 
@@ -53,10 +66,11 @@
 
 #whatWeDoImage {
   margin: 10px 0px;
+  border-radius: 20px;
 }
 
 p.section-1-content {
-  text-align: justify;
+  text-align: initial;
 }
 /* End of What We Do Section */
 
@@ -112,6 +126,7 @@ p.section-1-content {
 
   #whatWeDoImage {
     margin: 0px;
+    border-radius: 20px;
   }
 
   .light-button {
