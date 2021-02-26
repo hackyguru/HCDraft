@@ -223,7 +223,7 @@ font-size: 10px;
   
 p {
   text-align: center;
-  color: black;
+  color: white;
   max-width: 800px;
   /* min-width: 300px; */
   margin: auto;
@@ -232,6 +232,21 @@ p {
   font-weight: 100;
   line-height: 1.5em;
 }
+
+
+
+.whitetext {
+  text-align: initial;
+  color: white;
+  /* min-width: 300px; */
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+
+
   
 section {
   padding: 15px 0px;
