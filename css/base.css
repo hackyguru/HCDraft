@@ -245,7 +245,9 @@ p {
   line-height: 1.5em;
 }
 
-
+.textcenter {
+  text-align: center;
+}
 
   
 section {
@@ -344,3 +346,12 @@ button {
 }
 
 }
+
+.centerimage {
+  text-align: center;
+}
+
+/*Bottom scroller*/
+
+
+
